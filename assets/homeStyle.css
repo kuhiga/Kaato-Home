@@ -1,0 +1,175 @@
+
+	.navbar{
+		position:fixed !important;
+		top: 0;
+		width:100%;
+		padding: 20px  !important;
+		z-index:1;
+		background:white;
+		margin-bottom: -1px;
+	}
+	body{
+		background:url("../img/trees.JPG") no-repeat;
+		background-position:center;
+		background-size:cover;
+	}
+	a{
+		font-size:35px;
+		color:dimgray;
+
+	}
+
+	a.hover {
+   	 text-decoration: none ;
+	}
+	.link, .link:visited,.link:hover,.link:active {
+   text-decoration:none;
+ }
+
+	#pugLover{
+		color:white;
+		font-size:30px;
+		letter-spacing:0.2rem;
+
+	}
+	.btn{
+
+	}
+	#part2{
+		padding:15%;
+		text-align:center;
+		color:white;
+	
+	}
+	#experience{
+		background:#4c5364;
+		color:white;
+		padding:5%;
+		padding-bottom:35%;
+		text-align:center;
+		font-size:40px;
+		letter-spacing:0.2rem;
+
+	}
+	#bottom{
+		text-align:center;
+		letter-spacing:0.2rem !important;
+		font-weight:bold;
+		color:white;
+		padding-top:4%;
+		padding-bottom:11px;
+		background:lightgray;
+		background-position:center;
+		background-size:cover;
+		font-size:50px;
+	}
+
+	#cover{
+
+		font-family: 'Montserrat', sans-serif;
+		text-align: center;
+		background: url("../img/trees.JPG") no-repeat;
+		background-size: cover;
+	    background-position: center
+
+	}
+	#intro{
+		padding-top:5%;
+		padding-bottom:30%;
+		font-size:50px !important;
+		font-family: 'Montserrat', sans-serif;
+		text-align: center;
+		background: gainsboro
+		background-size: cover;
+	    background-position: center
+	    color:white;
+	    text-decoration-style: shutter
+
+	}
+	#transition{
+		padding:1%;
+		padding-top:5%;
+		text-align:center;
+		color:white;
+		background:#c26868;
+	}
+	img{
+		width: 100%;
+
+	}
+	.row{
+	}
+	   	.navbar-inverse {
+	      background: #2c3e50;
+	      color: white;
+	    }
+	    .navbar-inverse .navbar-brand, .navbar-inverse a{
+	      color:white;
+	    }
+	    .navbar-inverse .navbar-nav>li>a {
+	      color: white;
+	    } 
+	#info{
+		font-size:15px;
+		margin-left:15%;
+		margin-right:15%;
+	}
+	#portfolio{
+		padding-left:5%;
+		padding-right:5%;
+		padding-bottom:5%;
+		padding-top:5%;
+		background:#c26868;
+
+
+	}
+	.thumbnail{
+		margin:10%;
+		border: solid 15px black;
+
+	}
+
+	.basicInfo{
+		padding-top:15%;
+		padding-bottom:15%;
+		font-size:50px !important;
+	}
+
+	#info{
+		color:white;
+	}
+	#me{
+		color:white;
+	}
+	h1{
+
+		font-size: 55px !important;
+		font-weight:bolder;
+		color:white;
+	}
+	h2{
+		font-size:25px;
+		letter-spacing:0.2rem;
+	}
+	h3{
+		font-size:35px;
+		letter-spacing:0.2rem;
+	}
+
+	hr{
+		border-bottom: 5px solid white;
+		margin-top:15%;
+
+	}
+	.right{
+
+	}
+
+
+
+
+
+
+
+
+

@@ -9,9 +9,7 @@
 		margin-bottom: -1px;
 	}
 	body{
-		background:url("../img/trees.JPG") no-repeat;
-		background-position:center;
-		background-size:cover;
+		background:#4c5364;
 	}
 	a{
 		font-size:35px;
@@ -23,8 +21,18 @@
    	 text-decoration: none ;
 	}
 	.link, .link:visited,.link:hover,.link:active {
-   text-decoration:none;
+		color:white;
+		letter-spacing:0.5rem;
+   		text-decoration:none;
  }
+	.basicInfo{
+		padding-top:15%;
+		padding-bottom:15%;
+		font-size:50px !important;
+				background:url("../img/trees.JPG") no-repeat;
+		background-position:center;
+		background-size:cover;
+	}
 
 	#pugLover{
 		color:white;
@@ -32,11 +40,43 @@
 		letter-spacing:0.2rem;
 
 	}
-	.btn{
+		#intro{
+		padding-top:5%;
+		padding-bottom:5%;
+		font-family: 'Montserrat', sans-serif;
+		text-align: center;
+		background:#4c5364;
+		background-size: cover;
+	    background-position: center;
+	    text-decoration-style: shutter;
 
 	}
+	#me{
+		color:white;
+		font-size:50px !important;
+
+	}
+	#info{
+		font-size:18px;
+		margin-left:25%;
+		margin-right:25%;
+		color:white;
+	}
+	#transition{
+		font-size:50px ;
+		padding:1%;
+		padding-top:5%;
+		text-align:center;
+		color:white;
+		background:#c26868;
+	}
+	#portfolio{
+		text-align:center;
+		color:white;
+		background:#c26868;
+	}
+
 	#part2{
-		padding:15%;
 		text-align:center;
 		color:white;
 	
@@ -55,13 +95,16 @@
 		text-align:center;
 		letter-spacing:0.2rem !important;
 		font-weight:bold;
-		color:white;
+		color:white ;
 		padding-top:4%;
-		padding-bottom:11px;
+		padding-bottom:5px;
 		background:lightgray;
+
+		
 		background-position:center;
 		background-size:cover;
 		font-size:50px;
+
 	}
 
 	#cover{
@@ -73,26 +116,7 @@
 	    background-position: center
 
 	}
-	#intro{
-		padding-top:5%;
-		padding-bottom:30%;
-		font-size:50px !important;
-		font-family: 'Montserrat', sans-serif;
-		text-align: center;
-		background: gainsboro
-		background-size: cover;
-	    background-position: center
-	    color:white;
-	    text-decoration-style: shutter
 
-	}
-	#transition{
-		padding:1%;
-		padding-top:5%;
-		text-align:center;
-		color:white;
-		background:#c26868;
-	}
 	img{
 		width: 100%;
 
@@ -109,11 +133,7 @@
 	    .navbar-inverse .navbar-nav>li>a {
 	      color: white;
 	    } 
-	#info{
-		font-size:15px;
-		margin-left:15%;
-		margin-right:15%;
-	}
+
 	#portfolio{
 		padding-left:5%;
 		padding-right:5%;
@@ -125,22 +145,13 @@
 	}
 	.thumbnail{
 		margin:10%;
-		border: solid 15px black;
+		border: solid 2px black;
 
 	}
 
-	.basicInfo{
-		padding-top:15%;
-		padding-bottom:15%;
-		font-size:50px !important;
-	}
 
-	#info{
-		color:white;
-	}
-	#me{
-		color:white;
-	}
+
+
 	h1{
 
 		font-size: 55px !important;

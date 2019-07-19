@@ -20,10 +20,14 @@
 	a.hover {
    	 text-decoration: none ;
 	}
-	.link, .link:visited,.link:hover,.link:active {
+	.link, .link:visited,.link:active {
 		color:white;
-		letter-spacing:0.5rem;
    		text-decoration:none;
+   		color:black;
+ }
+ .link:hover{
+ 	color:dodgerblue;
+ 	text-decoration:none;
  }
 	.basicInfo{
 		padding-top:15%;
@@ -99,7 +103,7 @@
 		padding-top:4%;
 		padding-bottom:5px;
 		background:lightgray;
-
+		font-family: 'Montserrat', sans-serif;
 		
 		background-position:center;
 		background-size:cover;

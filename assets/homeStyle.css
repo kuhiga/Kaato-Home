@@ -3,8 +3,8 @@
 		position:fixed !important;
 		top: 0;
 		width:100%;
-		padding: 20px  !important;
-		z-index:1;
+/*		padding: 20px  !important;
+*/		z-index:1;
 		background:white;
 		margin-bottom: -1px;
 	}
@@ -29,7 +29,15 @@
  	color:dodgerblue;
  	text-decoration:none;
  }
-	.basicInfo{
+ #projectlink{
+ 	color:white !important;
+
+ }
+  #projectlink:hover{
+ 	color:dodgerblue !important;
+
+ }
+	#basicInfo{
 		padding-top:15%;
 		padding-bottom:15%;
 		font-size:50px !important;
@@ -44,8 +52,10 @@
 		letter-spacing:0.2rem;
 
 	}
+
+
 		#intro{
-		padding-top:5%;
+		padding-top:2.5%;
 		padding-bottom:5%;
 		font-family: 'Montserrat', sans-serif;
 		text-align: center;
@@ -60,25 +70,23 @@
 		font-size:50px !important;
 
 	}
+	.aboutpic{
+	width: 500px;
+	float: right;
+	margin-top: 90px;
+	margin:5%;
+	}
 	#info{
 		font-size:18px;
-		margin-left:25%;
-		margin-right:25%;
 		color:white;
+		display: inline-block;
+		width: 69%;
+		margin: 55px 0;
 	}
-	#transition{
-		font-size:50px ;
-		padding:1%;
-		padding-top:5%;
-		text-align:center;
-		color:white;
-		background:#c26868;
+
 	}
-	#portfolio{
-		text-align:center;
-		color:white;
-		background:#c26868;
-	}
+
+
 
 	#part2{
 		text-align:center;
@@ -107,8 +115,12 @@
 		
 		background-position:center;
 		background-size:cover;
-		font-size:50px;
+		font-size:20px;
 
+	}
+	.contactme{
+		font-weight:500;
+		padding-bottom:50px;
 	}
 
 	#cover{
@@ -142,16 +154,18 @@
 		padding-left:5%;
 		padding-right:5%;
 		padding-bottom:5%;
-		padding-top:5%;
+		padding-top:2.5%;
 		background:#c26868;
+		color:white;
 
 
 	}
 	.thumbnail{
 		margin:10%;
-		border: solid 2px black;
+		border: dashed 2px white;
 
 	}
+
 
 
 
@@ -173,7 +187,8 @@
 
 	hr{
 		border-bottom: 5px solid white;
-		margin-top:15%;
+		margin-top:5%;
+		margin-bottom:2.5%;
 
 	}
 	.right{

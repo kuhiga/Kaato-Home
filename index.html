@@ -23,17 +23,15 @@
       <div class="collapse navbar-collapse " id="bootstrap-nav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">home</a>
+            <a class="nav-link" href="#basicInfo">home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#intro">about</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#transition">fun</a>
+            <a class="nav-link" href="#portfolio">fun</a>
           </li>
-           <li class="nav-item">
-            <a class="nav-link" href="#experience">school</a>
-          </li>
+
           <li class="nav-item">
             <a class="nav-link" href="#bottom">contact</a>
           </li>
@@ -41,9 +39,9 @@
       </div> 
     </nav>
 
-          <div class="basicInfo">
+          <div id="basicInfo">
             <h1>Hi, I'm Kurt Higa.  </h1>
-            <div id="pugLover">burgers | pugs | music</div>
+            <div id="pugLover">burger | pugs | code</div>
             <br>
             <br>
             <br>
@@ -58,44 +56,47 @@
 
         <div id="intro">
           <div id="me">
-            <p>
-             <b>about Me...</b><br>
+             <h1><b>about Me...</b></h1>
 
-            </p>
           </div>
+
+
+
           <div id="info">
+          <div class="aboutpic">
+              <img src="img/tomi2.png" >
+          </div>
               I was born and raised in <b>Pleasanton, California</b>. I also lived in Japan for two years during middle school. After starting college at <b>UC Santa Cruz</b> and taking computer science courses, I grew more and more interested in programming. <br><br> Currently, I am looking for internship opportunities to enhance and learn new skills. I hope to <b>create software</b> that is <b>user friendly</b>.<br><br>
               When I'm not coding or worrying about schoolwork, you might catch me listening to music, playing uno with friends, playing basketball, or practicing the ukulele. 
-              <div class="thumbnail">
-          <img src="img/tomi2.png" width="200" height="245">
-            </div>
-        </div>
+
         </div>
                 
 
                 <div  id="part2">
           <h2></h2>
         </div>
-        <div  id="transition">
-          <h2> PROJECTS + FUN</h2>
-        </div>
+  
 
         <div id="portfolio" >
+          <h1> PROJECTS + FUN</h1>
           <div class="row">
         <div class="col-lg-4 col-sm-6">
           <div class="thumbnail">
-            <img src="img/tomi1.png">
+            <img src="img/mydoodle.png" href="https://github.com/kuhiga/doodle">
           </div>
+          <h2> <a class= "link" id="projectlink" target="_blank" href="https://github.com/kuhiga/doodle">doodle</a>
+        </h2>
+          a simple javascript drawing app which allows user to mix colors and learn the basics of RGB
         </div>
         <div class="col-lg-4 col-sm-6">
           <div class="thumbnail">
-            <img src="img/tomi1.png">
+            <img src="img/maze.png" >
           </div>
-        </div>
+          <h2> <a class= "link" id="projectlink" target="_blank" >3D world</a>        </h2>   
+            a 3d maze which gives the player a limited number of moves to reach the goal while avoiding pools of lava
+        </h2>        </div>
         <div class="col-lg-4 col-sm-6">
-          <div class="thumbnail">
-            <img src="img/tomi1.png">
-          </div>
+
         </div>
 
     </div>
@@ -107,7 +108,10 @@
           <div>insert classes and stuff</div>
         </div> -->
         <div id="bottom">
-          CONTACT <br>
+          <h1>CONTACT</h1> <br>
+           <div class="contactme">
+          Feel free to contact me anytime!
+           </div>
           <div class="inner"> 
         <span class="right">
           <a class = "link" target="_blank" href="mailto:kuhiga@ucsc.edu">kuhiga@ucsc.edu</a>&nbsp;//&nbsp;
@@ -116,15 +120,15 @@
         </span>
       </div>
           <hr>
+
         </div>
 
-         <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
-        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/14.2.1/smooth-scroll.min.js" integrity="sha256-MhIEydYjM8X/lfw31uxgXHB5BCo+bQX6BmFJYmzty7w=" crossorigin="anonymous"></script>
-
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/14.2.1/smooth-scroll.min.js" integrity="sha256-MhIEydYjM8X/lfw31uxgXHB5BCo+bQX6BmFJYmzty7w=" crossorigin="anonymous"></script>
     <script type="text/javascript">
         $(function () {
-        var scroll = new SmoothScroll('a[href*="#"]', {speed: 1500, offset: 64, updateURL: false});
+        var scroll = new SmoothScroll('a[href*="#"]', {speed: 800, offset: 64, updateURL: false});
         });
     </script>
       </body>

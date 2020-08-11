@@ -1,211 +1,204 @@
 
-	.navbar{
-		position:fixed !important;
-		top: 0;
-		width:100%;
+.navbar{
+	position:fixed !important;
+	top: 0;
+	width:100%;
 /*		padding: 20px  !important;
 */		z-index:1;
-		background:white;
-		margin-bottom: -1px;
-	}
-	body{
-		background:#4c5364;
-	}
-	a{
-		font-size:35px;
-		color:dimgray;
+background:white;
+margin-bottom: -1px;
+}
 
-	}
+a{
+	font-size:35px;
+	color:dimgray;
 
-	a.hover {
-   	 text-decoration: none ;
-	}
-	.link, .link:visited,.link:active {
-		color:white;
-   		text-decoration:none;
-   		color:black;
- }
- .link:hover{
- 	color:dodgerblue;
- 	text-decoration:none;
- }
- #projectlink{
- 	color:white !important;
+}
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative
+}
+a.hover {
+	text-decoration: none ;
+}
+.link, .link:visited,.link:active {
+	color:white;
+	text-decoration:none;
+	color:black;
+}
+.link:hover{
+	color:dodgerblue;
+	text-decoration:none;
+}
+#projectlink{
+	color:white !important;
 
- }
-  #projectlink:hover{
- 	color:dodgerblue !important;
+}
+#projectlink:hover{
+	color:dodgerblue !important;
 
- }
-	#basicInfo{
-		padding-top:15%;
-		padding-bottom:15%;
-		font-size:50px !important;
-		background:url("../img/trees.JPG") no-repeat;
-		background-position:center;
-		background-size:cover;
-	}
+}
+#basicInfo{
+	padding-top:15%;
+	padding-bottom:15%;
+	font-size:50px !important;
+	background-position:center;
+	background-size:cover;
+}
 
-	#pugLover{
-		color:white;
-		font-size:30px;
-		letter-spacing:0.2rem;
+#pugLover{
+	color:white;
+	font-size:30px;
+	letter-spacing:0.2rem;
 
-	}
-
-
-		#intro{
-		padding-top:2.5%;
-		padding-bottom:5%;
-		width:100%;
-		text-align: center;
-		background:#4c5364;
-		background-size: cover;
-	    background-position: center;
-/*		float: left;
-*/		display:inline-block;
+}
 
 
+#intro{
+	padding-top:2.5%;
+	padding-bottom:5%;
+	width:100%;
+	text-align: center;
+	background:#4c5364;
+	background-size: cover;
+	background-position: center;
+	display:inline-block;
+}
 
-	}
-	.abouttext{
-	width: 400px;
+.abouttext{
+	width: 100%;
 	float: left;
 
-	}
-	#me{
-		color:white;
+}
+#me{
+	color:white;
 
 
-	}
-	.aboutpic{
-	width: 360px;
-	float: right;
+}
+.aboutpic{
+	width: 50%;
 	margin-top: 20px;
 	margin-bottom:20px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+	text-align:center;
+	display:inline-block;
+}
+#info{
+	font-size:18px;
+	color:white;
+	display: inline-block;
+	width: 69%;
+	margin: 55px 0;
+}
 
-	}
-	#info{
-		font-size:18px;
-		color:white;
-		display: inline-block;
-		width: 69%;
-		margin: 55px 0;
-	}
-
-	}
+}
 
 
 
-	#part2{
-		text-align:center;
-		color:white;
+#part2{
+	text-align:center;
+	color:white;
 	
-	}
-	#experience{
-		background:#4c5364;
-		color:white;
-		padding:5%;
-		padding-bottom:35%;
-		text-align:center;
-		font-size:40px;
-		letter-spacing:0.2rem;
+}
+#experience{
+	background:#4c5364;
+	color:white;
+	padding:5%;
+	padding-bottom:35%;
+	text-align:center;
+	font-size:40px;
+	letter-spacing:0.2rem;
 
-	}
-	#bottom{
-		text-align:center;
-		letter-spacing:0.2rem !important;
-		font-weight:bold;
-		color:white ;
-		padding-top:4%;
-		padding-bottom:5px;
-		background:lightgray;
-		font-family: 'Montserrat', sans-serif;
-		
-		background-position:center;
-		background-size:cover;
-		font-size:20px;
+}
+#bottom{
+	text-align:center;
+	letter-spacing:0.2rem !important;
+	font-weight:bold;
+	color:white ;
+	padding-top:4%;
+	padding-bottom:5px;
+	background:lightgray;
+	font-family: 'Montserrat', sans-serif;
 
-	}
-	.contactme{
-		font-weight:500;
-		padding-bottom:50px;
-	}
+	background-position:center;
+	background-size:cover;
+	font-size:20px;
 
-	#cover{
+}
+.contactme{
+	font-weight:500;
+	padding-bottom:50px;
+}
 
-		font-family: 'Montserrat', sans-serif;
-		text-align: center;
-		background: url("../img/trees.JPG") no-repeat;
-		background-size: cover;
-	    background-position: center
+#cover{
 
-	}
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	background: url("../img/trees.JPG") no-repeat;
+	background-size: cover;
+	background-position: center
 
-	img{
-		width: 100%;
+}
 
-	}
-	.row{
-	}
-	   	.navbar-inverse {
-	      background: #2c3e50;
-	      color: white;
-	    }
-	    .navbar-inverse .navbar-brand, .navbar-inverse a{
-	      color:white;
-	    }
-	    .navbar-inverse .navbar-nav>li>a {
-	      color: white;
-	    } 
+img{
+	width: 100%;
 
-	#portfolio{
-		padding-left:5%;
-		padding-right:5%;
-		padding-bottom:5%;
-		padding-top:2.5%;
-		background:#c26868;
-		color:white;
+}
+.row{
+}
+.navbar-inverse {
+	background: #2c3e50;
+	color: white;
+}
+.navbar-inverse .navbar-brand, .navbar-inverse a{
+	color:white;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+} 
 
-
-	}
-	.thumbnail{
-		margin:10%;
-		border: dashed 2px white;
-
-	}
+#portfolio{
+	padding-left:5%;
+	padding-right:5%;
+	padding-bottom:5%;
+	padding-top:2.5%;
+	background:#c26868;
+	color:white;
 
 
+}
+.thumbnail{
+	margin:10%;
+	border: dashed 2px white;
+
+}
 
 
+h1{
 
-	h1{
+	font-size: 55px !important;
+	font-weight:bold;
+	color:white;
+}
+h2{
+	font-size:25px;
+	letter-spacing:0.2rem;
+}
+h3{
+	font-size:35px;
+	letter-spacing:0.2rem;
+}
 
-		font-size: 55px !important;
-		font-weight:bold;
-		color:white;
-	}
-	h2{
-		font-size:25px;
-		letter-spacing:0.2rem;
-	}
-	h3{
-		font-size:35px;
-		letter-spacing:0.2rem;
-	}
+hr{
+	border-bottom: 5px solid white;
+	margin-top:5%;
+	margin-bottom:2.5%;
 
-	hr{
-		border-bottom: 5px solid white;
-		margin-top:5%;
-		margin-bottom:2.5%;
+}
+.right{
 
-	}
-	.right{
-
-	}
+}
 
 
 

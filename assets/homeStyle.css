@@ -142,3 +142,15 @@ h3:hover{
 	width: 100%;
 	text-transform:none;
 }
+@media screen and (max-width: 600px) {
+#title img{
+	max-width:180px !important;
+	min-width:50px;
+}
+
+#profile-pic img{
+	max-width:180px !important;
+	min-width:50px;
+
+ }
+}

@@ -11,7 +11,7 @@
 	left: 0;
 	right: 0;
 	margin:auto;
-
+	background-color:white;
 }
 
 .navbar .navbar-nav {
@@ -35,7 +35,11 @@
 	padding: 10px 20px;
 	display: block;
 	text-align: center;
-	font-size:30px;
+	font-size:25px;
+}
+#nav-section li a{
+	font-size:18px !important;
+	text-transform:uppercase;
 }
 body{
 	padding-top: 65px; 
@@ -49,12 +53,7 @@ body{
   margin: auto;
   width: auto;
 }
-#about{
-  margin: auto;
-  width: auto;
-  padding: 40px;
 
-}
 p{
 	text-transform:none;
 }
@@ -62,11 +61,28 @@ p{
   margin: auto;
   width: auto;
   padding: 40px;
+  margin-top:50px;
   text-align:center;
   border: 80px white solid;
   margin-bottom:20px;
 }
 #experience li{
+	text-align:left;
+}
+#projects{
+  margin: auto;
+  width: 64%;
+  padding: 40px;
+  margin-top:50px;
+  text-align:center;
+  border: 40px white solid;
+  margin-bottom:20px;
+
+}
+#projects li{
+	text-align:left;
+}
+#projects p{
 	text-align:left;
 }
 #title{
@@ -78,24 +94,32 @@ p{
 #title h2{
 	font-size:40px;
 }
-#title h3{
-	text-decoration:none;
-	font-size:20px;
-	text-transform:none;
-}
+
 #title img{
 	min-width:250px;
 	max-width:66%;
 	height:auto;
 	margin:auto;
 }
+#title p{
+	text-decoration:none;
+	font-size:18px;
+	text-transform:none;
+}
+#title a{
+	color:#6cc2e0 !important;
+}
+#title a:hover{
+	color:#48a3e0 !important;
+}
+
 #profile-pic{
 	display: -webkit-box;
 	display: -ms-flexbox;
 	vertical-align:center;
 	border: 10px white solid;
 	background-color:white;
-
+	max-width:300px;
 }
 #profile-pic img{
 	min-width:250px;
@@ -110,6 +134,19 @@ p{
 	width: 100%;
 
 }
+
+#about{
+  margin: auto;
+  width: 64%;
+  padding: 40px;
+  margin-top:65px;
+  text-align:center;
+  border: 20px white solid;
+  margin-bottom:20px;
+}
+#about p{
+	text-align:left;
+}
 hr{
 	width:77%;
 	margin:25px;
@@ -121,12 +158,7 @@ a:hover{
 	color:#6cc2e0;
 	text-decoration:none;
 }
-#about a{
-	color:#6cc2e0;
-}
-#about a:hover{
-	color:#48a3e0;
-}
+
 .row{
 	width:100%;
 }
@@ -177,4 +209,19 @@ h3{
 	min-width:50px;
 
  }
+ #about{
+  width: auto;
+  
+}
+#projects{
+  width: auto;
+  
+}
+
+}
+@media screen and (max-width: 700px) {
+
+#nav-section li a{
+	display:none;
+}
 }

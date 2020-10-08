@@ -61,9 +61,10 @@ p{
 #experience{
   margin: auto;
   width: auto;
-    padding: 40px;
-    text-align:center;
-
+  padding: 40px;
+  text-align:center;
+  border: 80px white solid;
+  margin-bottom:20px;
 }
 #title{
 	text-align: center;
@@ -81,6 +82,9 @@ p{
 	display: -webkit-box;
 	display: -ms-flexbox;
 	vertical-align:center;
+	border: 10px white solid;
+	background-color:white;
+
 }
 #profile-pic img{
 	min-width:250px;
@@ -93,6 +97,7 @@ p{
   	padding: 40px;
   	text-align: center;
 	width: 100%;
+
 }
 hr{
 	width:77%;

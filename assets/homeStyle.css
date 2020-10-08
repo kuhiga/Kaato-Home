@@ -66,6 +66,9 @@ p{
   border: 80px white solid;
   margin-bottom:20px;
 }
+#experience li{
+	text-align:left;
+}
 #title{
 	text-align: center;
 	width: 50%;
@@ -110,6 +113,12 @@ a:hover{
 	color:#6cc2e0;
 	text-decoration:none;
 }
+#about a{
+	color:#6cc2e0;
+}
+#about a:hover{
+	color:#48a3e0;
+}
 .row{
 	width:100%;
 }
@@ -129,6 +138,11 @@ li{
 	text-transform:none;
 }
 #contact a{
+	color:#6cc2e0;
+	text-transform:none;
+}
+#contact a:hover{
+	color:#48a3e0;
 	text-transform:none;
 }
 h3{
@@ -136,10 +150,7 @@ h3{
 	-webkit-text-decoration-color:#6cc2e0;
 	        text-decoration-color:#6cc2e0;
 }
-h3:hover{
-	-webkit-text-decoration-color:lightgrey;
-	        text-decoration-color:lightgrey;
-}
+
 #copyright{
 	margin: auto;
   	padding: 40px;

@@ -80,7 +80,6 @@ p{
 #profile-pic{
 	display: -webkit-box;
 	display: -ms-flexbox;
-	display: flex;
 	vertical-align:center;
 }
 #profile-pic img{
@@ -143,11 +142,3 @@ h3:hover{
 	width: 100%;
 	text-transform:none;
 }
-
-
-
-
-
-
-
-

@@ -1,11 +1,12 @@
        <!DOCTYPE html>
        <html>
        <head>
- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
          <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800,900" rel="stylesheet">
          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
          <link rel="stylesheet" type="text/css" href="assets/homeStyle.css" >
          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
          <title>Kurt Higa</title>
 
@@ -42,13 +43,16 @@
         </div>
         <div id="home" class="row">
           <div id="title" class="col-6 col-sm-6 col-md-6 col-lg-6">
-            <img src="img/title.png">
+              <h2>Hi, I'm</h2><h2>Kurt Higa</h2>
+              <br>
+            <h3>Thank you for visiting my website!</h3>
+            <br>
 
           </div>
           <div id="profile-pic" class="col-6 col-sm-6 col-md-6 col-lg-6">
             <img id="circle" src="img/kurtscuba.jpg">
           </div>
-  
+
         </div>
         <div class="row">
           <div id="about" class="row">
@@ -66,85 +70,85 @@
                 <h3>Coursework</h3>
                 <p style="text-align:left"><b>Now taking</b>: Algorithm Analysis, Computational Model, and Okinawan History</p>
                 <p style="text-align:left"><b>Have taken:</b>
-                <div class="row">
-                  <div class="col-12 col-sm-6 col-md-6 col-lg-6">
-                    <ul>
-                      <li>Algorithms and Abstract Data Types</li>
+                  <div class="row">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                      <ul>
+                        <li>Algorithms and Abstract Data Types</li>
 
-                      <li>Artificial Intelligence</li>
+                        <li>Artificial Intelligence</li>
 
-                      <li>Computer Architecture</li>
+                        <li>Computer Architecture</li>
 
-                      <li>Computer Graphics</li>
-                      <li>Computer Systems and Assembly Language</li>
+                        <li>Computer Graphics</li>
+                        <li>Computer Systems and Assembly Language</li>
 
-                    </ul>
+                      </ul>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                      <ul>
+
+                        <li>Database System</li>
+
+                        <li>Discrete Math</li>
+
+                        <li>Functional Programming</li>
+
+                        <li>Introduction to Data Structures</li>
+                        <li>Vector Calculus</li>
+
+                        <li>Web Applications</li>
+                      </ul>
+                    </div>
                   </div>
-                  <div class="col-12 col-sm-6 col-md-6 col-lg-6">
-                    <ul>
 
-                      <li>Database System</li>
-
-                      <li>Discrete Math</li>
-
-                      <li>Functional Programming</li>
-
-                      <li>Introduction to Data Structures</li>
-                      <li>Vector Calculus</li>
-
-                      <li>Web Applications</li>
-                    </ul>
-                  </div>
                 </div>
+              </div>
+            </div>
+            <div class="row">
+              <div id="contact">
+
+                <h3>Contact</h3>
+                <a class = "link col-12 col-sm-4" target="_blank" href="mailto:kurthigaa@gmail.com">kurthigaa@gmail.com</a>
+
 
               </div>
             </div>
-          </div>
-          <div class="row">
-            <div id="contact">
 
-              <h3>Contact</h3>
-              <a class = "link col-12 col-sm-4" target="_blank" href="mailto:kurthigaa@gmail.com">kurthigaa@gmail.com</a>
-
-
+            <div class="row">
+              <div id="copyright">
+                © 2020
+              </div>
             </div>
           </div>
 
-          <div class="row">
-            <div id="copyright">
-              © 2020
-            </div>
-          </div>
-        </div>
 
+          <script type="text/javascript">
 
-        <script type="text/javascript">
-
-          function change(){
-           var image = document.getElementById('circle');
-           if(image != null){
-            var images = ['img/kurtscuba.jpg',
+            function change(){
+             var image = document.getElementById('circle');
+             if(image != null){
+              var images = ['img/kurtscuba.jpg',
               'img/tomi.png','img/IMG_3940.jpg','img/P9090031.JPG','img/sunset.JPG']
-             image.src=images[Math.floor(Math.random() * Math.floor(5))];
+              image.src=images[Math.floor(Math.random() * Math.floor(5))];
+            }
           }
-         }
 
-         var timer = setInterval('change();',2000); 
+          var timer = setInterval('change();',2000); 
 
-         function stop(){
- clearInterval(timer); 
-} 
-</script>
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-<script src="https://kit.fontawesome.com/4e96e23900.js" crossorigin="anonymous"></script>
+          function stop(){
+           clearInterval(timer); 
+         } 
+       </script>
+       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+       <script src="https://kit.fontawesome.com/4e96e23900.js" crossorigin="anonymous"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/14.2.1/smooth-scroll.min.js" integrity="sha256-MhIEydYjM8X/lfw31uxgXHB5BCo+bQX6BmFJYmzty7w=" crossorigin="anonymous"></script>
-<script type="text/javascript">
-  $(function () {
-    var scroll = new SmoothScroll('a[href*="#"]', {speed: 800, offset: 64, updateURL: false});
-  });
-</script>
-</body>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/14.2.1/smooth-scroll.min.js" integrity="sha256-MhIEydYjM8X/lfw31uxgXHB5BCo+bQX6BmFJYmzty7w=" crossorigin="anonymous"></script>
+       <script type="text/javascript">
+        $(function () {
+          var scroll = new SmoothScroll('a[href*="#"]', {speed: 800, offset: 64, updateURL: false});
+        });
+      </script>
+    </body>
 
-</html>
+    </html>

@@ -75,6 +75,14 @@ p{
   	word-spacing: 9999rem;
   	word-spacing: unset;
 }
+#title h2{
+	font-size:40px;
+}
+#title h3{
+	text-decoration:none;
+	font-size:20px;
+	text-transform:none;
+}
 #title img{
 	min-width:250px;
 	max-width:66%;

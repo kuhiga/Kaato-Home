@@ -78,6 +78,8 @@ p{
 	margin:auto;
 }
 #profile-pic{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	vertical-align:center;
 }
@@ -127,10 +129,12 @@ li{
 }
 h3{
 	text-decoration: underline;
-	text-decoration-color:#6cc2e0;
+	-webkit-text-decoration-color:#6cc2e0;
+	        text-decoration-color:#6cc2e0;
 }
 h3:hover{
-	text-decoration-color:lightgrey;
+	-webkit-text-decoration-color:lightgrey;
+	        text-decoration-color:lightgrey;
 }
 #copyright{
 	margin: auto;

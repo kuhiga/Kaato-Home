@@ -117,6 +117,36 @@ p {
   max-width: 230px;
   height: auto;
   margin: auto;
+  /* display: flex; */
+}
+#about-pic {
+  /* display: -webkit-box;
+  display: -ms-flexbox;
+  vertical-align: center;
+  border: 10px white solid;
+  background-color: white;
+  max-width: 300px;
+  max-height: 300px;
+  width: 100%; */
+}
+#about-pic img {
+  min-height: 350px;
+  max-height: 350px;
+  height: auto;
+  margin: auto;
+  display: flex;
+  border: 30px solid white;
+}
+#about-pic1 img {
+  min-height: 175px;
+  max-height: 175px;
+  height: auto;
+  margin: auto;
+  display: flex;
+  border: 30px solid white;
+}
+#aboutme {
+  width: 100%;
 }
 #contact {
   margin: auto;
@@ -127,16 +157,19 @@ p {
 
 #about {
   margin: auto;
-  width: 64%;
+  min-width: 50%;
+  max-width: 80%;
   padding: 40px;
   margin-top: 65px;
-  text-align: center;
+  /* text-align: center; */
   border: 20px white solid;
   margin-bottom: 20px;
 }
 #about p {
   text-align: left;
+  width: 100%;
 }
+
 #projects {
   margin: auto;
   width: 80%;
@@ -158,6 +191,8 @@ p {
   padding: 50px;
   width: 100% !important;
   height: 100% !important;
+}
+.oneproject p {
 }
 .oneproject:hover a {
   color: white !important;
@@ -234,6 +269,7 @@ h3 {
   text-decoration: underline;
   -webkit-text-decoration-color: #6cc2e0;
   text-decoration-color: #6cc2e0;
+  text-align: center;
 }
 
 #copyright {
@@ -256,6 +292,7 @@ h3 {
     min-width: 50px;
     margin-left: 30px;
   }
+
   #about {
     width: auto;
   }
@@ -265,6 +302,9 @@ h3 {
 }
 @media screen and (max-width: 700px) {
   #nav-section li a {
+    display: none;
+  }
+  #about-pic1 {
     display: none;
   }
 }

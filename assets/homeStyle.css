@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 .navbar {
   position: fixed;
   top: 0;
@@ -73,7 +80,7 @@ p {
   text-align: center;
   width: 50%;
   /*word-spacing: 9999rem;
-  	word-spacing: unset;*/
+		word-spacing: unset;*/
 }
 #title h2 {
   font-size: 38px;
@@ -140,11 +147,11 @@ p {
   margin-bottom: 20px;
 }
 /* #projects li {
-  text-align: left;
-}
-#projects p {
-  text-align: left;
-} */
+	text-align: left;
+  }
+  #projects p {
+	text-align: left;
+  } */
 .oneproject {
   /* display: flex; */
   text-align: center !important;
@@ -181,6 +188,8 @@ p {
   width: 100%;
   text-align: center !important;
   border-radius: 10px 10px 10px 10px !important;
+  -webkit-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
   transition: opacity 0.2s;
 }
 hr {

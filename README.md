@@ -1,2 +1,1 @@
-personal website
-https://www.kurthiga.com/
+old personal website
